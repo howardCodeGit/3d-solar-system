@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dat.gui": "^0.7.9",
     "next": "14.2.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "three": "^0.163.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
     "eslint": "^8",
     "eslint-config-next": "14.2.2",
     "eslint-config-prettier": "^9.1.0",
