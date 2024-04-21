@@ -1,8 +1,6 @@
 import React from 'react';
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import * as THREE from 'three';
+import { useEffect } from 'react';
 
 export default function Home() {
   return (
